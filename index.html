@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테트리스</title>
+    <style>
+        #score{
+            display: inline-block;
+        }
+        div{
+            font-size: 25px;
+            font-weight: bold;
+            /* font-family: monospace; */
+            text-align: center;
+        }
+        canvas{
+            display: block;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div>테트리스</div>
+
+    <canvas id="tetris" width="250" height="500"></canvas>
+    <div>
+        점수 : <div id="score">0</div>
+    </div>
+    
+    
+    <script src="tetrominoes.js"></script>
+    <script src="tetris.js"></script>
+
+
+</body>
+</html>
